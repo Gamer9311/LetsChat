@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            LetsChat!
+        </title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
+        </script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+
+        </script>
+
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js">
+        
+        </script>
+        
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js">
+        
+        </script>
+        
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js">
+        
+        </script>
+
+        <link rel="stylesheet" href="style.css">
+    
+    </head>
+
+    <body>
+        <div class="container" style="text-align: right;">
+
+            <button id="logout" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger" style="text-align: right;">
+                Logout
+            </button>
+
+            <center>
+                <h1 class="header">
+                    LetsChat!
+                </h1>
+    
+                <span>
+                    <img src="LetsChat! Animation.gif" id="chat_logo">
+                </span>
+
+                <h3 id="username" class="color_white">
+
+                </h3>
+
+                <div class="form-group input_div_room_page">
+                    <label>
+                        #Add Room:
+                    </label>
+
+                    <input type="text" id="room_name" class="form-control" placeholder="#Room Name">
+                </div>
+
+                <button onclick="addRoom()" class="btn btn-success">
+                    #Add Room
+                </button>
+
+                <h3 class="color_white">
+                    #TRENDING ROOMS
+                </h3>
+
+                <div id="output">
+
+                </div>
+            </center>
+        </div>
+
+        <script src="letschat.js">
+
+        </script>
+    </body>
+</html>

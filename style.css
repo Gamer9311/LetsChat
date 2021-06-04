@@ -1,0 +1,61 @@
+body
+{
+    background-color: blanchedalmond;
+}
+
+#MP
+{
+    text-align: center;
+}
+
+.header
+{
+    font-family: cursive;
+}
+
+#username
+{
+    color: black;
+    width: 70%;
+    height: 40px;
+    border-radius: 50px;
+}
+
+#chat_logo
+{
+    width: 200px;
+    height: 230px;
+    margin: 10px;
+    border-radius: 100px;
+    background-position: center;
+}
+
+label
+{
+    font-size: larger;
+}
+
+#main
+{
+    background-color: chocolate;
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 75px;
+    border-radius: 50px;
+    border: rgba(0, 0, 0, 50) 5px;
+    border-style: dashed;
+}
+
+#output
+{
+    padding: 10px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+}
+
+.message_h4
+{
+    padding-left:5px;color:grey;
+}
